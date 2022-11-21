@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SeleniumFrameWorkSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AutomationTest(failed)">
+    <classes>
+      <class name="testcase.firstTestCase">
+        <methods>
+          <include name="tearup"/>
+          <include name="setupbrowser"/>
+          <include name="signup" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- testcase.firstTestCase -->
+    </classes>
+  </test> <!-- AutomationTest(failed) -->
+</suite> <!-- Failed suite [SeleniumFrameWorkSuite] -->
