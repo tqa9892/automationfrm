@@ -1,0 +1,37 @@
+https://www.labor.ny.gov/ui/claimantinfo/sign-in-faq.shtm
+
+https://uihp2.labor.ny.gov/UBCI/viewHistory.do
+
+
+
+
+https://www.selenium.dev/selenium/docs/api/java/overview-summary.html
+
+https://www.javadoc.io/doc/org.seleniumhq.selenium/selenium-api/2.50.1/org/openqa/selenium/package-summary.html
+
+github doc.// search git command online will get more info
+ https://www.hostinger.com/tutorials/basic-git-commands
+git status
+git branch -M master
+$ git remote add origin https://github.com/tqa9892/gitub-demo.git   =github link for repository 
+git branch -m main    = to change branch from master to main
+git push -u origin main   = add it to github repository
+
+Code push in/ also skipped method:
+git init  = add it to git repository
+git add -A = add all file to git repository staging area+
+git reset  = will remove the file from staging area
+git add .   = will add modified or newly added file to git repisitory
+touch .gitignore = create ignore folder to remove or not to add .file(dot file) from staging area
+ls -la     = to see the git ignore file
+vi .gitignore  =to open gitignore folder/then press insert to add file after adding press escape then press shift:wq to save 
+git add -A    = it will add all the file except the file i added in the gitignore folder
+git commit -m "first commit for autooo"  = this will go to brach master still in the computer/ now go to github and create repository
+git remote add origin https://github.com/tqa9892/jhskjsa.git  = after making copy 
+git branch -M main = change the branch
+git push -u origin main  = finally send the code to github completed
+git clone https://github.com/tqa9892/automationfrm.git  = to make a github copy to the computer's specific folder open git desh board 
+git pull  = it will pull the  only latest changese doc or file from the remote github repository not all file like clone comand does 
+git push origin main = send it to updated code to github repository
+
+**to create token for github : go to settings/developer settings/personal access token/ check reco, and others box/generate token/ copy the link and past it to token
